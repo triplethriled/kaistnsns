@@ -2,8 +2,8 @@ const http = require('http');
 
 const express = require('express');
 const cors = require('cors');
-// const port = process.env.PORT || 80;
-const port = 8000
+const port = process.env.PORT || 8000;
+//const port = 8000
 const app = express();
 
 app.use(express.json());
